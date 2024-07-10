@@ -21,3 +21,4 @@ BONUS 2: Organizzare i singoli membri in card/schede
 <!-- pseudo codice -->
 
 1-creo il mio array di oggetti che rappresenta la struttura dati (nome/ruolo/foto)
+2-stampo in console la struttura dati contenuta nell'array mostrando tutte le prorpietà

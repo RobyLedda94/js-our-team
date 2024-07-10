@@ -43,3 +43,7 @@ const team = [
     },
 ]
 
+// MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+
+console.log(team);
+
