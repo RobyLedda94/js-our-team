@@ -28,5 +28,17 @@ BONUS 2: Organizzare i singoli membri in card/schede
 5.1-recupero dal dom l'elemento con id data-team x
 5.2-devo ciclarre l'array di oggetti con tutte le sue prorpietà x
 5.3-vado ad iniettare le prorpietà dell'array nell'elemento recuperato dal dom  `` x
+
+
+<!-- pseudo codice bonus 1 -->
+
+1-bisogna trasformare la stringa foto in una immagine effettiva
+2-recupero l'elemento con id data-card dal dom
+3-creo l'elemento div
+4-appendo l'elemento div creato all'elemento con in data-card
+5-assegno le classi di bootstrap all'elemento div creato
+6-aggiungo le immagini creando un elemento img ed assegnando il path
+
+<!-- pseudo codice bonus 2 -->
 `
 
