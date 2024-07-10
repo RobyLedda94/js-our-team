@@ -61,6 +61,7 @@ const dataTeam = document.getElementById('data-team');
 
 // vado a ciclare l'array di oggetti creato in precedenza
 for (let i = 0; i < team.length; i++){
-
+    // inietto all'elemento recuperato dal dom le prorprietà contenute nell'array di oggetti
+    dataTeam.innerHTML += `${team[i].name} ${team[i].surname} ${team[i].role} ${team[i].img} <br>`
 };
 
