@@ -92,7 +92,7 @@ for (let i = 0; i < team.length; i++){
     
     const col = document.createElement('div'); // creo l'elemento div
     col.classList.add('col-12', 'col-md-6', 'col-lg-4'); // assegno le classi di bootstrap
-    col.innerHTML =`<img src="./img/${team[i].img}">`
+    col.innerHTML =`<img src="./img/${team[i].img}" class="img-fluid my-3">`
 
     dataCard.append(col);
 
