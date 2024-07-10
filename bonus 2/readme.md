@@ -41,5 +41,5 @@ BONUS 2: Organizzare i singoli membri in card/schede
 
 <!-- pseudo codice bonus 2 -->
 
-1- inietto nell'elento creato la classe card di bootstrap
+1- inietto nell'elemento creato la classe card di bootstrap
 
