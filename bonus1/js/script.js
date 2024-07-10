@@ -43,16 +43,13 @@ const team = [
     },
 ]
 
+
+
+
+
 // MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
-
-
-
 // CONSOLE LOG DELL'ARRAY DI OGGETTI
 // // CICLO FOR IN PER VISUALIZZARE I DATI IN CONSOLE
- for (let key in team){
-      console.log(team[key]);
- }
-
 console.log(team);
 
 for (let i = 0; i < team.length; i++){
@@ -60,14 +57,46 @@ for (let i = 0; i < team.length; i++){
 }
 
 
+
+
+
+
+
 // MILESTONE 2: Stampare le stesse informazioni su DOM sottoforma di stringhe
+
+// BONUS 1
+// funzione al cui interno creo un div a cui assegno le classi di bootstrap
+
+
+
 
 // recupero l'elemento con id data-team dal dom
 const dataTeam = document.getElementById('data-team');
+const dataCard = document.getElementById('data-card');
+
+
+
+
+
+
 
 // vado a ciclare l'array di oggetti creato in precedenza
 for (let i = 0; i < team.length; i++){
     // inietto all'elemento recuperato dal dom le prorprietà contenute nell'array di oggetti
     dataTeam.innerHTML += `${team[i].name} ${team[i].surname} ${team[i].role} ${team[i].img} <br>`
+};
+
+
+for (let i = 0; i < team.length; i++){
+    // inietto all'elemento recuperato dal dom le prorprietà contenute nell'array di oggetti
+    dataCard.innerHTML += `${team[i].name} ${team[i].surname} ${team[i].role} ${team[i].img}`
+    const col = document.createElement('div'); // creo l'elemento div
+    col.classList.add('col-12', 'col-md-6', 'col-lg-4'); // assegno le classi di bootstrap
+    col.innerHTML = `
+
+    `
+
+    dataCard.append(col);
+
 };
 
