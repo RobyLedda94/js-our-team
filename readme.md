@@ -20,6 +20,9 @@ BONUS 2: Organizzare i singoli membri in card/schede
 
 <!-- pseudo codice -->
 
-1-creo il mio array di oggetti che rappresenta la struttura dati (nome/ruolo/foto)
-2-stampo in console la struttura dati contenuta nell'array mostrando tutte le prorpietà
-3-utilizzo il ciclo for in per visualizzare i dati in console
+1-creo il mio array di oggetti che rappresenta la struttura dati (nome/ruolo/foto) x
+2-stampo in console la struttura dati contenuta nell'array mostrando tutte le prorpietà x
+3-utilizzo il ciclo for in per visualizzare i dati in console x
+4-stampare le info in console anche in pagina
+5-vado a creare la macro struttura nel file html importo bootstrap
+
