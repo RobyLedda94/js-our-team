@@ -33,6 +33,9 @@ BONUS 2: Organizzare i singoli membri in card/schede
 <!-- pseudo codice bonus 1 -->
 
 1-bisogna trasformare la stringa foto in una immagine effettiva
-2-creo una funzione dove verranno creati un elemento div a cui assegnamo le classi di bootstrap 
+2-recupero l'elemento con id data-card dal dom
+3-creo l'elemento div
+4-appendo l'elemento div creato all'elemento con in data-card
+5-assegno le classi di bootstrap all'elemento div creato
 
 
