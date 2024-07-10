@@ -37,5 +37,6 @@ BONUS 2: Organizzare i singoli membri in card/schede
 3-creo l'elemento div
 4-appendo l'elemento div creato all'elemento con in data-card
 5-assegno le classi di bootstrap all'elemento div creato
+6-aggiungo le immagini creando un elemento img ed assegnando il path
 
 
