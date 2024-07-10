@@ -59,3 +59,8 @@ for (let key in team){
 // recupero l'elemento con id data-team dal dom
 const dataTeam = document.getElementById('data-team');
 
+// vado a ciclare l'array di oggetti creato in precedenza
+for (let i = 0; i < team.length; i++){
+
+};
+
