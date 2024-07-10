@@ -40,5 +40,6 @@ BONUS 2: Organizzare i singoli membri in card/schede
 6-aggiungo le immagini creando un elemento img ed assegnando il path
 
 <!-- pseudo codice bonus 2 -->
-`
+
+1- inietto nell'elento creato la classe card di bootstrap
 

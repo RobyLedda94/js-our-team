@@ -92,10 +92,14 @@ for (let i = 0; i < team.length; i++){
     
     const col = document.createElement('div'); // creo l'elemento div
     col.classList.add('col-12', 'col-md-6', 'col-lg-4'); // assegno le classi di bootstrap
-    col.innerHTML =`<img src="./img/${team[i].img}" class="img-fluid my-3">`
+    col.innerHTML =`<div class="card" style="width: 18rem;">
+                        <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>`
 
     dataCard.append(col);
 
 };
-
 
