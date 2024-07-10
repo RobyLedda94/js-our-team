@@ -89,12 +89,10 @@ for (let i = 0; i < team.length; i++){
 
 for (let i = 0; i < team.length; i++){
     // inietto all'elemento recuperato dal dom le prorprietà contenute nell'array di oggetti
-    dataCard.innerHTML += `${team[i].name} ${team[i].surname} ${team[i].role} ${team[i].img}`
+    
     const col = document.createElement('div'); // creo l'elemento div
     col.classList.add('col-12', 'col-md-6', 'col-lg-4'); // assegno le classi di bootstrap
-    col.innerHTML = `
-
-    `
+    col.innerHTML =`${team[i].name}`
 
     dataCard.append(col);
 
