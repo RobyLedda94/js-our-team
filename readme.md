@@ -27,6 +27,6 @@ BONUS 2: Organizzare i singoli membri in card/schede
 5-vado a creare la macro struttura nel file html importo bootstrap x
 5.1-recupero dal dom l'elemento con id data-team x
 5.2-devo ciclarre l'array di oggetti con tutte le sue prorpietà x
-5.3-vado ad iniettare le prorpietà dell'array nell'elemento recuperato dal dom  ``
+5.3-vado ad iniettare le prorpietà dell'array nell'elemento recuperato dal dom  `` x
 `
 

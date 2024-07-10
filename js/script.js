@@ -45,14 +45,15 @@ const team = [
 
 // MILESTONE 1: Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 
+
+
 // CONSOLE LOG DELL'ARRAY DI OGGETTI
- console.log(team);
 // // CICLO FOR IN PER VISUALIZZARE I DATI IN CONSOLE
-// for (let key in team){
-//      console.log(key);
-//      console.log(team[key]);
-//     // console.log(team[key]);
-// }
+ for (let key in team){
+      console.log(team[key]);
+ }
+
+console.log(team);
 
 for (let i = 0; i < team.length; i++){
     console.log(team[i].name, team[i].surname, team[i].role, team[i].img);
