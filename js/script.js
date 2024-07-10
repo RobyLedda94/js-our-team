@@ -47,3 +47,9 @@ const team = [
 
 console.log(team);
 
+// CICLO FOR IN PER VISUALIZZARE I DATI 
+
+for (let key in team){
+    console.log(team[key]);
+}
+
